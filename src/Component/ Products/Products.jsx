@@ -9,7 +9,6 @@ const Products = () => {
   const handleGenderChange = (event) => {
     setSelectedGender(event.target.value);
   };
-  console.log(selectedGender);
   const handelSubmit = (e) => {
     e.preventDefault();
     const inputValues = {};
@@ -26,7 +25,6 @@ const Products = () => {
   //set localStorage
   useEffect(() => {
     localStorage.setItem("products", JSON.stringify(products));
-    console.log(products);
   }, [products]);
 
   return (
