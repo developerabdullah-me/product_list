@@ -21,8 +21,6 @@ const Products = () => {
     inputValues["gender"] = selectedGender;
     setProducts([...products, inputValues]);
     elements.name = "";
-
-    console.log(products);
   };
 
   //set localStorage
