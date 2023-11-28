@@ -70,7 +70,7 @@ const Products = () => {
                     <input className="border border-x-cyan-950 w-80 mb-3 bg-[#192a56] border-none py-3 pl-5 " type="text" placeholder="Enter product image" />
                 </label> */}
           <label>
-            nter product category
+            Enter product category
             <input
               required
               className="border border-x-cyan-950 w-80 mb-3 bg-[#192a56] border-none py-3 pl-5 "
@@ -107,6 +107,16 @@ const Products = () => {
               name="discountPrice"
               type="text"
               placeholder="Enter product discount"
+            />
+          </label>
+          <label>
+            Enter product description
+            <input
+              required
+              className="border border-x-cyan-950 w-80 mb-3 bg-[#192a56] border-none py-3 pl-5 "
+              name="productDescription"
+              type="text"
+              placeholder="Enter product description"
             />
           </label>
 
